@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* NAVIGATION */
+.menu{
+  background-color: #034362;
+}
+
+.menu img {
+  float: left;
+  display: inline;
+  margin = 0px;
+  background: transparent;
+}
+
+#home,
+#oscargit,
+#oscarweb {
+  color: white;
+  margin = 0px;
+  border-radius = 0px;
+}
+
+a#home:hover,
+a#oscargit:hover,
+a#oscarweb:hover {
+  margin = 0px;
+  border-radius = 0px;
+  color = #000000 !important;
+  background-color: #0D658E;
+}
+
+.active {
+  background-color: #0D85AF;
+}
+
+/* MAIN HEADING */
+.main {
+  background-color: #0D85AF;
+  padding: 60px 0;
+}
+
+.main h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+.main h2 {
+  color: white;
+  text-align: center;
+}
+
+/* TABLE SECTION */
+.tablesection {
+  background-color: #0C648C;
+  padding: 60px 0;
+}
+
+.header {
+  background-color: #CFD8D0;
+}
+
+.tablesection tbody > tr {
+  color: #CFD8D0;
+}
+
+.tablesection > #tableh {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.tablesection tbody > tr:hover {
+  color: #000000;
+}
+
+/* FOOTER */
+.footer {
+  padding: 40px 0;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.footer p {
+  padding: 0 30px;
+}
+
+.footer #email {
+  float: left;
+}
+
+.footer #copyr {
+  float: right;
+}
